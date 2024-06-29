@@ -70,7 +70,7 @@ VERIFY2_API = environ.get('VERIFY2_API', "e45148e36c775f7602b27f6036bcd96a750db1
 # file Shortner urls
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlstox.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '5bac6cb8fa7801f13d873564a08afbd9a486c09c')
-IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'true')), true)
+IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), True)
 
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/krbackup/7')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
