@@ -68,8 +68,8 @@ VERIFY2_URL = environ.get('VERIFY2_URL', "ziplinker.net")
 VERIFY2_API = environ.get('VERIFY2_API', "e45148e36c775f7602b27f6036bcd96a750db1c8")
 
 # file Shortner urls
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e45148e36c775f7602b27f6036bcd96a750db1c8')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlstox.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '5bac6cb8fa7801f13d873564a08afbd9a486c09c')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'true')), true)
 
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/krbackup/7')
